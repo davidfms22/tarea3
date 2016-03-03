@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.postgresql.core.Utils;
+
 import dm.uniandes.app.FileFinder;
 import dm.uniandes.app.Statistics;
 import spark.ModelAndView;
@@ -15,7 +17,7 @@ import spark.template.freemarker.FreeMarkerEngine;
 
 public class Main {
 
-	private static String filePath1 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test1.txt";
+	private static String filePath1 = Utils.class.getResource("/resources/test1.txt").getFile();
 	private static String filePath2 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test2.txt";
 	private static String filePath3 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test3.txt";
 	private static String filePath4 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test4.txt";
