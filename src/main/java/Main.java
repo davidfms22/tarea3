@@ -2,6 +2,7 @@ import static spark.Spark.get;
 import static spark.SparkBase.port;
 import static spark.SparkBase.staticFileLocation;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.HashMap;
@@ -17,7 +18,7 @@ import spark.template.freemarker.FreeMarkerEngine;
 
 public class Main {
 
-	private static String filePath1 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test2.txt";
+	private static String filePath1 = "src\\main\\resources\\test1.txt";
 	private static String filePath2 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test2.txt";
 	private static String filePath3 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test3.txt";
 	private static String filePath4 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test4.txt";
@@ -25,9 +26,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
+		String mainPath = new File(".").getAbsolutePath().toString();
+		
 		HashMap<String, List<Double>> data1 = new HashMap<String, List<Double>>();
 		try {
-			data1 = FileFinder.getPairData(filePath1);
+			data1 = FileFinder.getPairData(mainPath.replace(".", filePath1));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
