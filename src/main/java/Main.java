@@ -17,9 +17,10 @@ import spark.template.freemarker.FreeMarkerEngine;
 public class Main {
 
 	private static String filePath1 = "test1.txt";
-//	private static String filePath2 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test2.txt";
-//	private static String filePath3 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test3.txt";
-//	private static String filePath4 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test4.txt";
+	private static String filePath2 = "test2.txt";
+	private static String filePath3 = "test3.txt";
+	private static String filePath4 = "test4.txt";
+
 	
 	
 	public static void main(String[] args) {
@@ -41,7 +42,7 @@ public class Main {
 		
 		HashMap<String, List<Double>> data2 = new HashMap<String, List<Double>>();
 		try {
-			data2 = FileFinder.getPairData(mainPath.replace(".", filePath1));
+			data2 = FileFinder.getPairData(mainPath.replace(".", filePath2));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -54,7 +55,7 @@ public class Main {
 		
 		HashMap<String, List<Double>> data3 = new HashMap<String, List<Double>>();
 		try {
-			data3 = FileFinder.getPairData(mainPath.replace(".", filePath1));
+			data3 = FileFinder.getPairData(mainPath.replace(".", filePath3));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -67,7 +68,7 @@ public class Main {
 		
 		HashMap<String, List<Double>> data4 = new HashMap<String, List<Double>>();
 		try {
-			data4 = FileFinder.getPairData(mainPath.replace(".", filePath1));
+			data4 = FileFinder.getPairData(mainPath.replace(".", filePath4));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
