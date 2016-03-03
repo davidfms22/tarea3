@@ -15,8 +15,8 @@ import spark.template.freemarker.FreeMarkerEngine;
 
 public class Main {
 
-	private static String filePath1 = "///C:/GT_Workspace/ECOS/Tarea/program1/Program1/target/test1.txt";
-
+	private static String filePath1 = "/Users/davidmars/Documents/ECOS/workspace/Lab4/lab4/target/test1.txt";
+	
 	public static void main(String[] args) {
 		
 		HashMap<String, List<Double>> data1 = new HashMap<String, List<Double>>();
