@@ -35,11 +35,11 @@ public class Main {
 
 		port(Integer.valueOf(System.getenv("PORT")));
 		staticFileLocation("/public");
-		Double a1 = result1.get("beta0");
-		Double a2 = result1.get("beta1");
-		Double a3 = result1.get("rXY");
-		Double a4 = result1.get("r2");
-		Double a5 = result1.get("yK");
+		String a1 = result1.get("beta0").toString();
+		String a2 = result1.get("beta1").toString();
+		String a3 = result1.get("rXY").toString();
+		String a4 = result1.get("r2").toString();
+		String a5 = result1.get("yK").toString();
 
 		get("/", (request, response) -> {
 			Map<String, Object> attributes = new HashMap<>();
