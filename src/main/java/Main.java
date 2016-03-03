@@ -18,7 +18,7 @@ import spark.template.freemarker.FreeMarkerEngine;
 
 public class Main {
 
-	private static String filePath1 = "src/main/resources/test1.txt";
+	private static String filePath1 = "src\\main\\resources\\test1.txt";
 	private static String filePath2 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test2.txt";
 	private static String filePath3 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test3.txt";
 	private static String filePath4 = "///Users/davidmars/workspace/Lab4/lab4/src/main/resources/test4.txt";
