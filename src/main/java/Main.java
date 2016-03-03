@@ -23,7 +23,7 @@ public class Main {
 		get("/", (request, response) -> {
 			Map<String, Object> attributes = new HashMap<>();
 			attributes.put("A1", "22");
-			attributes.put("A2", "22");
+			attributes.put("A2", "33");
 			attributes.put("A3", "22");
 			attributes.put("A4", "22");
 			attributes.put("A5", "22");
