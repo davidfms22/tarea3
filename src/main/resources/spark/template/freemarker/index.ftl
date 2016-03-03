@@ -42,9 +42,9 @@
 	    <td class="tg-yw4l">644.429</td>
 	    <td class="tg-yw4l">${A1}</td>
 	    <td class="tg-yw4l">${A2}</td>
-	    <td class="tg-yw4l">A3</td>
-	    <td class="tg-yw4l">A4</td>
-	    <td class="tg-yw4l">A5</td>
+	    <td class="tg-yw4l">${A3}</td>
+	    <td class="tg-yw4l">${A4}</td>
+	    <td class="tg-yw4l">${A5}</td>
 	  </tr>
 	  <tr>
 	    <td class="tg-6k2t">Test 2</td>
@@ -53,11 +53,11 @@
 	    <td class="tg-6k2t">0.9333</td>
 	    <td class="tg-6k2t">0.8711</td>
 	    <td class="tg-6k2t">60.858</td>
-	    <td class="tg-6k2t">C1</td>
-	    <td class="tg-6k2t">C2</td>
-	    <td class="tg-6k2t">C3</td>
-	    <td class="tg-6k2t">C4</td>
-	    <td class="tg-6k2t">C5</td>
+	    <td class="tg-6k2t">${C1}</td>
+	    <td class="tg-6k2t">${C2}</td>
+	    <td class="tg-6k2t">${C3}</td>
+	    <td class="tg-6k2t">${C4}</td>
+	    <td class="tg-6k2t">${C5}</td>
 	  </tr>
 	  <tr>
 	    <td class="tg-yw4l">Test 3</td>
@@ -66,11 +66,11 @@
 	    <td class="tg-yw4l">0.9631</td>
 	    <td class="tg-yw4l">0.9276</td>
 	    <td class="tg-yw4l">528.4294</td>
-	    <td class="tg-yw4l">D1</td>
-	    <td class="tg-yw4l">D2</td>
-	    <td class="tg-yw4l">D3</td>
-	    <td class="tg-yw4l">D4</td>
-	    <td class="tg-yw4l">D5</td>
+	    <td class="tg-yw4l">${D1}</td>
+	    <td class="tg-yw4l">${D2}</td>
+	    <td class="tg-yw4l">${D3}</td>
+	    <td class="tg-yw4l">${D4}</td>
+	    <td class="tg-yw4l">${D5}</td>
 	  </tr>
 	  <tr>
 	    <td class="tg-6k2t">Test 4</td>
@@ -79,11 +79,11 @@
 	    <td class="tg-6k2t">0.9480</td>
 	    <td class="tg-6k2t">0.8988</td>
 	    <td class="tg-6k2t">49.4994</td>
-	    <td class="tg-6k2t">F1</td>
-	    <td class="tg-6k2t">F2</td>
-	    <td class="tg-6k2t">F3</td>
-	    <td class="tg-6k2t">F4</td>
-	    <td class="tg-6k2t">F5</td>
+	    <td class="tg-6k2t">${F1}</td>
+	    <td class="tg-6k2t">${F2}</td>
+	    <td class="tg-6k2t">${F3}</td>
+	    <td class="tg-6k2t">${F4}</td>
+	    <td class="tg-6k2t">${F5}</td>
 	  </tr>
 	</table>
 </body>

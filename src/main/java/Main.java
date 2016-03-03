@@ -22,11 +22,26 @@ public class Main {
 
 		get("/", (request, response) -> {
 			Map<String, Object> attributes = new HashMap<>();
-			attributes.put("A1", "22");
-			attributes.put("A2", "33");
-			attributes.put("A3", "22");
-			attributes.put("A4", "22");
-			attributes.put("A5", "22");
+			attributes.put("A1", "beta0");
+			attributes.put("A2", "beta1");
+			attributes.put("A3", "rXY");
+			attributes.put("A4", "R2");
+			attributes.put("A5", "Yk");
+			attributes.put("C1", "beta0");
+			attributes.put("C2", "beta1");
+			attributes.put("C3", "rXY");
+			attributes.put("C4", "R2");
+			attributes.put("C5", "Yk");
+			attributes.put("D1", "beta0");
+			attributes.put("D2", "beta1");
+			attributes.put("D3", "rXY");
+			attributes.put("D4", "R2");
+			attributes.put("D5", "Yk");
+			attributes.put("F1", "beta0");
+			attributes.put("F2", "beta1");
+			attributes.put("F3", "rXY");
+			attributes.put("F4", "R2");
+			attributes.put("F5", "Yk");
 
 			return new ModelAndView(attributes, "index.ftl");
 		} , new FreeMarkerEngine());
