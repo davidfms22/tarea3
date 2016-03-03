@@ -40,11 +40,11 @@
 	    <td class="tg-yw4l">0.9545</td>
 	    <td class="tg-yw4l">0.9111</td>
 	    <td class="tg-yw4l">644.429</td>
-	    <td class="tg-yw4l">${A1}</td>
-	    <td class="tg-yw4l">${A2}</td>
-	    <td class="tg-yw4l">${A3}</td>
-	    <td class="tg-yw4l">${A4}</td>
-	    <td class="tg-yw4l">${A5}</td>
+	    <td class="tg-yw4l">A1</td>
+	    <td class="tg-yw4l">A2</td>
+	    <td class="tg-yw4l">A3</td>
+	    <td class="tg-yw4l">A4</td>
+	    <td class="tg-yw4l">A5</td>
 	  </tr>
 	  <tr>
 	    <td class="tg-6k2t">Test 2</td>
